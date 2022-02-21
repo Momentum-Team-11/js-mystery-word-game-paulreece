@@ -81,7 +81,7 @@ submit.addEventListener("click", function () {
 
   if (submitted === 5) {
     setTimeout(function () {
-      alert("GAME OVER");
+      alert("GAME OVER, the word was: " + randomElement);
     }, 300);
     setTimeout(function () {
       location.reload();
